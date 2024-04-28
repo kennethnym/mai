@@ -8,6 +8,7 @@ preprocess_training = a.Compose(
     [
         a.augmentations.PadIfNeeded(min_width=CROP_SIZE, min_height=CROP_SIZE),
         a.RandomCrop(width=CROP_SIZE, height=CROP_SIZE),
+        a.GaussNoise(),
         a.Flip(p=0.5),
         a.RandomRotate90(p=0.5),
         a.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
