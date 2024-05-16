@@ -858,29 +858,6 @@ files = [
 ]
 
 [[package]]
-name = "mlx"
-version = "0.11.0"
-description = "A framework for machine learning on Apple silicon."
-optional = false
-python-versions = ">=3.8"
-files = [
-    {file = "mlx-0.11.0-cp310-cp310-macosx_13_0_arm64.whl", hash = "sha256:ca6ace960f35fcb69a22f4afe4194ca9bf71fb8da9d3b85b9c2b15ca374b68d6"},
-    {file = "mlx-0.11.0-cp310-cp310-macosx_14_0_arm64.whl", hash = "sha256:31abf5d9be428e1a475a59d439bbf67d23b5e57f057bf0d98088a8d729621064"},
-    {file = "mlx-0.11.0-cp311-cp311-macosx_13_0_arm64.whl", hash = "sha256:dbf14cd6f00c5c9d1bb6719b27892c073886bc6c9cbe6d68fc43c909eda4153a"},
-    {file = "mlx-0.11.0-cp311-cp311-macosx_14_0_arm64.whl", hash = "sha256:3d5f3c6d227306fd116782d20dd3ad049728214a1eb9dc9896b00fba62bbe6a8"},
-    {file = "mlx-0.11.0-cp312-cp312-macosx_13_0_arm64.whl", hash = "sha256:ca722c6209304183c7b118147fb1bd59fddf7721dd55af0733c8de6a9c81748a"},
-    {file = "mlx-0.11.0-cp312-cp312-macosx_14_0_arm64.whl", hash = "sha256:d0337873f2a3fe8cfc2c1bba80f5a625c2b18ca3964d200cff23b3eb18efe2bd"},
-    {file = "mlx-0.11.0-cp38-cp38-macosx_13_0_arm64.whl", hash = "sha256:2044c95844de000146ae8525ae69a5df6f20bc668a67300144ff08e8dcea5e94"},
-    {file = "mlx-0.11.0-cp38-cp38-macosx_14_0_arm64.whl", hash = "sha256:8ade8b30ee83374a9b7b142d1be0415559bca45ee47e086a23a60673285518e4"},
-    {file = "mlx-0.11.0-cp39-cp39-macosx_13_0_arm64.whl", hash = "sha256:b5704abc8a2baa29a5963d137cc103a28b527e0ea1726b0692e8f117aeeee198"},
-    {file = "mlx-0.11.0-cp39-cp39-macosx_14_0_arm64.whl", hash = "sha256:c9a202203a5f1cf5213a0907d469a9a56f983ea80503dc34a7b0ceaa22795908"},
-]
-
-[package.extras]
-dev = ["pre-commit"]
-testing = ["numpy", "torch"]
-
-[[package]]
 name = "modal"
 version = "0.62.103"
 description = "Python client library for Modal"
@@ -2517,4 +2494,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "79314aefafe80317e47ba03bc893b26beb2c3315d674f138e1bfe52219f44a05"
+content-hash = "a3f37a24d76e12b290f21c67dd2253036c23db2d1ba3ab11e58c99da740bb5c4"
