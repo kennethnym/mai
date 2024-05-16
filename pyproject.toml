@@ -13,7 +13,6 @@ python = "^3.10"
 datasets = "^2.19.0"
 albumentations = "^1.4.4"
 numpy = "^1.26.4"
-modal = "^0.62.103"
 torch = "^2.2.2"
 
 
