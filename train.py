@@ -3,7 +3,6 @@ import torch
 import torch.nn
 import torch.optim
 import torch.utils.data
-import modal
 from datetime import datetime
 from datasets import concatenate_datasets, load_dataset
 from label import label_fake, label_real
