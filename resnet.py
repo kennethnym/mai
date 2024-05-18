@@ -99,7 +99,7 @@ class MaiRes(nn.Module):
                 in_channels=64,
                 out_channels=128,
                 stride=2,
-                shortcut=projection_shortcut(in_channels=64, out_channels=64),
+                shortcut=projection_shortcut(in_channels=64, out_channels=128),
             ),
             ResidualBlock(
                 in_channels=128,
