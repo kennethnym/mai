@@ -173,8 +173,8 @@ def train():
             accuracy = 100 * correct / sample_size
 
             running_loss += loss.item()
-            if i % 1000 == 999:
-                last_loss = running_loss / 1000  # loss per batch
+            if i % 10 == 9:
+                last_loss = running_loss / 10  # loss per batch
                 print("  batch {} loss: {}".format(i + 1, last_loss))
                 running_loss = 0.0
 
