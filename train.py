@@ -39,7 +39,7 @@ def load_data():
         trust_remote_code=True,
         split="train",
     )
-    flickr_dataset = load_dataset("nlphuji/flickr30k", split="test[:50%]")
+    flickr_dataset = load_dataset("nlphuji/flickr30k", split="test")
     painting_dataset = load_dataset(
         "keremberke/painting-style-classification", name="full", split="train"
     )
